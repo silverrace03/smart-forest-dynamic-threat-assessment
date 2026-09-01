@@ -1,0 +1,29 @@
+{
+  "weights": {
+    "poaching": 0.35,
+    "environmental": 0.30,
+    "ranger": 0.25,
+    "wildlife": 0.10
+  },
+  "thresholds": {
+    "safe_max": 25,
+    "moderate_max": 50,
+    "high_max": 75
+  },
+  "correlation_bonuses": {
+    "movement_and_chainsaw": 15,
+    "movement_and_gunshot": 20,
+    "smoke_and_high_temperature": 20
+  },
+  "minimum_scores": {
+    "ranger_fall_with_inactivity": 85,
+    "ranger_sos": 100
+  },
+  "zones": {
+    "general": {"importance": 1.00},
+    "protected_wildlife": {"importance": 1.15},
+    "poaching_hotspot": {"importance": 1.20},
+    "fire_prone": {"importance": 1.15},
+    "ranger_patrol": {"importance": 1.10}
+  }
+}
